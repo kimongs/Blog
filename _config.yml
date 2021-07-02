@@ -2,7 +2,7 @@ title:              kimongs
 email:              khsome12@gmail.com
 description:        My blog
 author:             kimongs
-baseurl:            "/blog"
+baseurl:            ""
 url:                "https://kimongs.github.io"
 
 # Social Profiles
