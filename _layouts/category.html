@@ -55,18 +55,16 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+            <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div>
 
-      </div>
+    </div>
 
-      <div class="col-lg-4 col-md-2">
+    <div class="col-lg-4 col-md-2">
         <ul>
         {% for category in site.categories %}
-          <li><a href="/category/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
+            <li><a href="/category/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
         {% endfor %}
         </ul>
-        
-      </div>
     </div>
   </div>

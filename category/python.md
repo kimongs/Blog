@@ -1,4 +1,4 @@
 ---
-layout : category
-category : python
+layout: category
+category: python
 ---

@@ -1,4 +1,4 @@
 ---
-layout : category
-category : programing
+layout: category
+category: html
 ---
